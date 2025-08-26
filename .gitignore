@@ -18,6 +18,7 @@ build/
 
 # Environment variables
 .env
+dbt_project/profiles.yml
 
 # Logs
 logs/
