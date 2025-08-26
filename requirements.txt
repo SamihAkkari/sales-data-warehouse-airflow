@@ -1,0 +1,7 @@
+pandas
+psycopg2-binary
+jupyterlab
+ipykernel
+matplotlib
+numpy
+dbt-postgres>=1.6.0

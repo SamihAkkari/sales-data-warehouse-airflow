@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: bronze          # a logical name for the source
+    database: "{{ env_var('POSTGRES_DB') }}"
+    schema: bronze             # schema where bronze tables live
+    tables:
+      - name: customers
+      - name: products
+      - name: sales
+      - name: loc
+      - name: cust
+      - name: px
+

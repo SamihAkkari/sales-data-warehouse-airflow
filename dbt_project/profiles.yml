@@ -1,0 +1,11 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: database        # must match your Docker Compose service name
+      user: postgres
+      password: mysecretpassword
+      port: 5432
+      dbname: olist
+      schema: dev
