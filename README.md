@@ -26,7 +26,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 ### Medallion Architecture (Bronze, Silver, Gold)
 
 ```mermaid
-![Description]https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Model%20architecture.png
+![Model Architecture](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Model%20architecture.png?raw=true)
 ```
 
 #### **Bronze Layer**
