@@ -25,9 +25,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 
 ### Medallion Architecture (Bronze, Silver, Gold)
 
-```mermaid
 ![Model Architecture](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Model%20architecture.png?raw=true)
-```
 
 #### **Bronze Layer**
 - **Purpose:** Raw ingestion of CSV data into PostgreSQL with minimal transformation.
