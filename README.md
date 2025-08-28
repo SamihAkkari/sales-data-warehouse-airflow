@@ -135,7 +135,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 - **Add BI/Dashboard Layer:** Connect Power BI, Tableau, or Metabase for interactive dashboards.
 - **Enhance Data Quality:** Add more dbt tests, data profiling, or monitoring.
 - **Security & Compliance:** Implement data masking, access controls, or audit logging as needed.
-- **Automate Scheduling:** Set Airflow DAGs to run on a schedule for production use.
+- **Cloud:** Configure the whole project to run with cloud services (AWS)
 
 ---
 
