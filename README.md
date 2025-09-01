@@ -56,7 +56,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 - Simplifies complex queries and supports scalable BI/reporting.
 
 **Data model visual**
-![Data model](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Data%20model.pngraw=true)
+![Data model](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Data%20model.png?raw=true)
 
 ---
 
