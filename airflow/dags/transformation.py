@@ -52,6 +52,17 @@ for model in gold_models_dependant_on_silver:
     )
     gold_tasks[model] = task
 
+# Add dbt docs generation task
+dbt_docs_generate = BashOperator(
+    task_id="dbt_docs_generate",
+    bash_command=f"""
+    echo "Generating dbt docs..."
+    dbt docs generate --profiles-dir {DBT_PROFILES_project_DIR} --project-dir {DBT_PROFILES_project_DIR}
+    echo "Docs generated!"
+    """,
+    dag=transformation_dag
+)
+
 [silver_tasks["customers"], silver_tasks["cust"], silver_tasks["loc"]] >> gold_tasks["dim_customers"]
 [silver_tasks["products"], silver_tasks["px"]] >> gold_tasks["dim_products"]
-[gold_tasks["dim_customers"], gold_tasks["dim_products"]] >> gold_tasks["fact_sales"]
+[gold_tasks["dim_customers"], gold_tasks["dim_products"]] >> gold_tasks["fact_sales"] >> dbt_docs_generate

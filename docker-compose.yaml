@@ -323,6 +323,14 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+  dbt-docs:
+    <<: *airflow-common
+    command: >
+      bash -c "dbt docs serve --host 0.0.0.0 --port 8081"
+    ports:
+      - "8081:8081"
+    working_dir: /opt/airflow/dbt_project
+
 volumes:
   airflow-db-volume:
   pgdata:

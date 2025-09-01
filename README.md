@@ -25,9 +25,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 
 ### Medallion Architecture (Bronze, Silver, Gold)
 
-```mermaid
-
-```
+![Model Architecture](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Model%20architecture.png?raw=true)
 
 #### **Bronze Layer**
 - **Purpose:** Raw ingestion of CSV data into PostgreSQL with minimal transformation.
@@ -56,6 +54,9 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 **Why Star Schema?**
 - Enables fast, intuitive analytics for business users.
 - Simplifies complex queries and supports scalable BI/reporting.
+
+**Data model visual**
+...
 
 ---
 
@@ -125,6 +126,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 4. **Access services:**
    - Airflow UI: [http://localhost:8080](http://localhost:8080)
    - pgAdmin: [http://localhost:5050](http://localhost:5050)
+   - dbt documentation: [http://localhost:8081](http://localhost:8081)
 5. **Trigger DAGs:**
    - In Airflow UI, trigger the `Data_ingestion` DAG, then the `Medallion_data_transformation` DAG.
 6. **Explore the data:**
@@ -137,7 +139,7 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 - **Add BI/Dashboard Layer:** Connect Power BI, Tableau, or Metabase for interactive dashboards.
 - **Enhance Data Quality:** Add more dbt tests, data profiling, or monitoring.
 - **Security & Compliance:** Implement data masking, access controls, or audit logging as needed.
-- **Automate Scheduling:** Set Airflow DAGs to run on a schedule for production use.
+- **Cloud:** Configure the whole project to run with cloud services (AWS)
 
 ---
 
@@ -146,7 +148,10 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 - **dbt Lineage Graph:**
   - _..._ 
 - **Airflow DAGs:**
-  - _..._
+  - | DAG 1 | DAG 2 |
+    |-------|-------|
+    | ![DAG1](images/Data ingestion.png) | ![DAG2](docs/dags/dag2.png) |
+
 
 ---
 
