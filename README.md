@@ -8,6 +8,20 @@
 
 ---
 
+## 📚 Table of Contents
+- [Project Overview](#-project-overview)
+- [Data Architecture](#-data-architecture)
+- [Data Quality & Transformation](#-data-quality--transformation)
+- [Technical Stack](#-technical-stack)
+- [Project Structure](#-project-structure)
+- [Orchestration & Workflow](#-orchestration--workflow)
+- [How to Run](#-how-to-run-the-project)
+- [Extensibility & Next Steps](#-extensibility--next-steps)
+- [Diagrams & Visuals](#-diagrams--visuals)
+- [Contact & About](#-contact--about)
+
+---
+
 ## 🚀 Project Overview
 
 This project implements a **Sales Analytics Data Warehouse** using the Medallion (Bronze/Silver/Gold) architecture, orchestrated with Apache Airflow, transformed with dbt, and fully containerized with Docker. It is designed as an end-to-end data engineering solution for sales data analysis.
