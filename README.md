@@ -147,11 +147,14 @@ This project implements a **Sales Analytics Data Warehouse** using the Medallion
 ## 📸 Diagrams & Visuals
 
 - **dbt Lineage Graph:**
-  - ![Lineage graph](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Lineage%20graph.png?raw=true)
+
+   ![Lineage graph](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Lineage%20graph.png?raw=true)
+  
 - **Airflow DAGs:**
-  - | DAG 1 | DAG 2 |
-    |-------|-------|
-    | ![DAG1](images/Data ingestion.png) | ![DAG2](docs/dags/dag2.png) |
+   
+  | Ingestion | Transformation |
+  |-----------|----------------|
+  | ![Data ingestion dag](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Data%20ingestion%20dag.png?raw=true) | ![Transformation dag](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Transformation%20dag.png?raw=true) |
 
 
 ---
