@@ -26,12 +26,13 @@
 
 This project implements a **Sales Analytics Data Warehouse** using the Medallion (Bronze/Silver/Gold) architecture, orchestrated with Apache Airflow, transformed with dbt, and fully containerized with Docker. It is designed as an end-to-end data engineering solution for sales data analysis.
 
+It is a hands on tutorial of a representative data pipeline workflows that can be used by beginners who are seeking to implement realistic end to end data pipeline projects
+
 - **Business Context:**
   - The warehouse enables analysts to explore sales flows, customer behavior, product performance, and shipping trends for a hypothetical company.
   - Data includes customer purchases, product details, pricing, and shipping dates, supporting a variety of sales analytics use cases.
 
-- **Intended Users:**
-  - Data analysts, business intelligence professionals, and data engineers seeking a robust, extensible analytics foundation.
+
 
 ---
 
