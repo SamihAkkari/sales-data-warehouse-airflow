@@ -154,8 +154,6 @@ It is a hands on tutorial of a representative data pipeline workflows that can b
 
 - **Add BI/Dashboard Layer:** Connect Power BI, Tableau, or Metabase for interactive dashboards.
 - **Enhance Data Quality:** Add more dbt tests, data profiling, or monitoring.
-- **Security & Compliance:** Implement data masking, access controls, or audit logging as needed.
-- **Cloud:** Configure the whole project to run with cloud services (AWS)
 
 ---
 
@@ -171,11 +169,5 @@ It is a hands on tutorial of a representative data pipeline workflows that can b
   |-----------|----------------|
   | ![Data ingestion dag](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Data%20ingestion%20dag.png?raw=true) | ![Transformation dag](https://github.com/SamihAkkari/sales-data-warehouse-airflow/blob/main/images/Transformation%20dag.png?raw=true) |
 
-
----
-
-## 📬 Contact & About
-
-_This project was developed as a portfolio piece to showcase modern data engineering and analytics architecture. For questions, feedback, or collaboration, please reach out!_
 
 ---
